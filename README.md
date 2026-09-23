@@ -1,54 +1,25 @@
-# Automação QA - Curso de Teste de Software
+# 📚 Aulas e Práticas: Automação QA
 
-Repositório de atividades e estudos práticos em **TypeScript** e automação de testes com **Vitest** do curso de Teste de Software (QA).
+Este repositório reúne os exercícios, scripts e casos de teste desenvolvidos durante as aulas práticas do bootcamp de Software Testing e Quality Assurance (Aponti / FAP 2026). O objetivo deste material é documentar a progressão técnica e servir como base de consulta para estruturação de testes automatizados.
 
----
+## 🛠️ Tecnologias Abordadas
 
-## 📁 Estrutura do Projeto
+* **Linguagens e Ambientes:** TypeScript e Node.js
+* **Fundamentos Praticados:** Lógica de programação, tipagem estática e manipulação de fluxos assíncronos (`async/await`, Promises).
+* **Testes e Qualidade:** Estruturação de suítes de testes e modelagem de casos de uso.
 
-* **`src/atividades/`**: Exercícios e atividades práticas de TypeScript (tipagem estática, Promises, manipulação de arrays, etc.).
-* **`src/testes/`**: Testes automatizados desenvolvidos com Vitest (`pow`, `login`, `math`, `createUser`, `soma`).
-* **`src/aula25/` & `src/aula26/`**: Conteúdos abordados em aula.
+## 📂 Estrutura do Material
 
----
+O conteúdo está organizado na pasta `src/`, acompanhando o cronograma e a evolução das aulas:
 
-## 📚 Documentações e Explicações (.md)
+* `aula25/` e `aula26/`: Exercícios de nivelamento abordando tipos primitivos, condicionais, loops e funções customizadas.
+* `atividades/`: Implementações focadas em automação, testes e documentação descritiva das lógicas aplicadas.
+* `testes/`: Aplicação prática com suítes de testes validando fluxos matemáticos lógicos e simulações de utilizador (ex: `login.test.ts`, `createUser.test.ts`).
 
-Este repositório conta com arquivos Markdown (`.md`) dedicados que explicam detalhadamente o funcionamento, a teoria e a prática dos códigos criados:
+## 🚀 Como Executar os Exercícios Localmente
 
-| Arquivo de Explicação | Localização | Assunto Abordado |
-| :--- | :--- | :--- |
-| **[explicação-casos-de-teste.md](./src/atividades/explicação-casos-de-teste.md)** | `src/atividades/` | Explicação dos tipos (`type`), funções de casos de teste e resolução do erro de tipagem TS2345. |
-| **[explicacao_async_await.md](./src/atividades/explicacao_async_await.md)** | `src/atividades/` | Ciclo de vida, linha do tempo e fluxo visual de funções assíncronas com `Promise` e `async/await`. |
-| **[explicacao-pow-test.md](./src/testes/explicacao-pow-test.md)** | `src/testes/` | Explicação dos testes unitários de potenciação com Vitest, asserções (`expect`) e matchers (`toBe`). |
+Para reproduzir os códigos e testar as implementações:
 
----
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-- [Node.js](https://nodejs.org/) instalado na máquina.
-
-### 1. Instalar as dependências
-```bash
-npm install
-```
-
-### 2. Verificar tipos (Type-check)
-Para validar os tipos do TypeScript sem gerar arquivos de build:
-```bash
-npm run type-check
-```
-
-### 3. Rodar Testes Automatizados
-```bash
-npm test
-```
-
-### 4. Scripts Rápidos para Atividades
-| Comando | Descrição |
-| :--- | :--- |
-| `npm run case` | Executa o arquivo `casos-de-teste.ts` |
-| `npm run arr` | Executa o arquivo `arraysExemplos.ts` |
-| `npm run atv` | Executa o arquivo `automacao.ts` |
-| `npm run pro` | Executa o arquivo de Promises da aula 26 |
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/marcelo-alan/automacao-qa.git](https://github.com/marcelo-alan/automacao-qa.git)
