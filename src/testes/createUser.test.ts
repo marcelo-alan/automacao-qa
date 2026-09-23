@@ -10,8 +10,8 @@ function createUser(nome: string, idade: number): User {
 }
 
 test('Criar um usuário com nome e idade', ()=>{
-    const user = createUser("ivis", 43);
+    const user = createUser("marcelo", 43);
     
-    expect(user).toEqual({nome: "ivis", idade: 43})
-    expect(user.nome).toBe("ivis")
+    expect(user).toEqual({nome: "marcelo", idade: 43})
+    expect(user.nome).toBe("marcelo")
 })
