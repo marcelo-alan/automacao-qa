@@ -4,7 +4,7 @@ function criarPessoa(nome: string, idade: number): Pessoa{
     return{nome, idade};
 }
 
-const p = criarPessoa("ivis", 43)
+const p = criarPessoa("marcelo", 25)
 console.log(p)
 
 type Produto = {nome: string; preco: number; estoque: number}

@@ -10,7 +10,7 @@ console.log(resultado);
 function mostrarNome(nome: string): void{
     console.log(`Olá, ${nome}`);
 }
-mostrarNome("ivis");
+mostrarNome("marcelo");
 
 
 //Função sem parâmetro, mas com retorno
