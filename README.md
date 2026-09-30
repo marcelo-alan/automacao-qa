@@ -1,87 +1,47 @@
-Nome do Projeto
+# 🧪 Automação QA — Suíte de Testes Automatizados
 
-Uma breve descrição em uma ou duas frases sobre o que o projeto faz e qual problema ele resolve.
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![QA Testing](https://img.shields.io/badge/Quality_Assurance-Automated_Testing-blue?style=for-the-badge)](https://github.com/marcelo-alan/automacao-qa)
 
-📌 Índice
+Projeto focado na automação de testes end-to-end (E2E) e de API para a validação de funcionalidades do ecossistema de software, garantindo qualidade, cobertura de código e prevenção de regressões.
 
-Sobre o Projeto
+---
 
-Tecnologias Utilizadas
+## 📌 Índice
 
-Funcionalidades
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [⚙️ Estrutura do Projeto](#️-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [🧪 Execução dos Testes](#-execução-dos-testes)
+- [📊 Relatórios](#-relatórios)
 
-Pré-requisitos
+---
 
-Como Executar
+## 📄 Sobre o Projeto
 
-Como Contribuir
+Este repositório reúne os scripts de teste automatizados desenvolvidos durante o módulo de automação de QA. Abrange planos de teste, cenários BDD/Gherkin, asserções de APIs e testes de interface visual/funcional.
 
-Licença
+---
 
-📖 Sobre o Projeto
+## 🛠️ Tecnologias Utilizadas
 
-Forneça uma explicação mais detalhada sobre o seu projeto aqui. Você pode incluir o contexto, motivação, casos de uso ou prints/GIFs da aplicação em funcionamento.
+- **Linguagem:** TypeScript
+- **Ambiente de Execução:** Node.js
+- **Framework de Testes:** Cypress / Playwright
+- **Gerenciador de Pacotes:** npm / yarn
 
-🛠️ Tecnologias Utilizadas
+---
 
-Listagem das principais linguagens, frameworks e bibliotecas usadas no desenvolvimento:
+## ⚙️ Estrutura do Projeto
 
-Node.js
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-✨ Funcionalidades
-
-[x] Cadastro e autenticação de usuários
-
-[x] Listagem e busca de itens
-
-[ ] Exportação de relatórios em PDF
-
-[ ] Modo escuro (Dark Mode)
-
-⚙️ Pré-requisitos
-
-Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-
-Git
-
-Node.js (versão 18 ou superior)
-
-Gerenciador de pacotes (npm, yarn ou pnpm)
-
-🚀 Como Executar
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-
-Acesse a pasta do projeto:
-
-cd seu-repositorio
-
-
-Instale as dependências:
-
-npm install
-
-
-Configure as variáveis de ambiente:
-Crie um arquivo .env na raiz do projeto com base no .env.example:
-
-cp .env.example .env
-
-
-Inicie o servidor de desenvolvimento:
-
-npm run dev
-
-
-📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+```text
+automacao-qa/
+├── turma-01-automacao-qa/
+│   ├── e2e/                # Testes End-to-End
+│   ├── api/                # Testes de Integração e API
+│   ├── fixtures/           # Dados estáticos de teste
+│   └── support/            # Comandos customizados e utilitários
+├── package.json
+└── tsconfig.json
